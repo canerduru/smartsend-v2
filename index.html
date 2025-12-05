@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>SmartSend AI - Kargo Ölçüm ve Fiyatlandırma</title>
+    <meta name="description" content="Yapay zeka ile saniyeler içinde paket boyutlarını ölçün." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @keyframes scan-line { 0% { top: 0%; opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { top: 100%; opacity: 0; } }
+      .animate-scan { animation: scan-line 2s linear infinite; }
+    </style>
+  </head>
+  <body class="bg-slate-900 text-white antialiased overflow-hidden">
+    <div id="root" class="h-screen w-screen flex flex-col"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

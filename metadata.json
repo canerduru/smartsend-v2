@@ -1,0 +1,7 @@
+{
+  "name": "SmartSend",
+  "description": "AI-powered logistics app for instant package measurement and shipping cost estimation.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
